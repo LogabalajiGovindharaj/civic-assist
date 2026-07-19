@@ -1,4 +1,5 @@
 # Civic Assist — Government Emergency & Banking RAG Assistant
+      https://civic-assist-uaj6.onrender.com
 
 A standalone Node.js/Express app with two grounded assistants:
 
