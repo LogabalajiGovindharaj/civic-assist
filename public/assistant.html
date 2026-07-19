@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Civic Assist</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/styles.css" />
+</head>
+<body>
+  <div class="topbar">
+    <div class="brand">
+      <a href="/dashboard.html" style="text-decoration:none; color:inherit; display:flex; align-items:center; gap:10px;">
+        <span class="mark"></span><span id="assistantLabel">Civic Assist</span>
+      </a>
+    </div>
+    <span class="location-pill off" id="locationPill"><span class="dot"></span> Location off</span>
+  </div>
+
+  <div class="chat-shell" id="chatShell"></div>
+
+  <div class="composer">
+    <form id="composerForm">
+      <input type="text" id="messageInput" placeholder="Type your question…" autocomplete="off" />
+      <button class="btn" type="submit">Send</button>
+    </form>
+  </div>
+
+  <script src="/js/assistant.js"></script>
+</body>
+</html>

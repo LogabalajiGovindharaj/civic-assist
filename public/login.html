@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Civic Assist — Sign in</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/styles.css" />
+</head>
+<body>
+  <div class="page-center">
+    <div style="width: 100%; max-width: 400px;">
+      <div style="text-align:center; margin-bottom: 10px;">
+        <svg width="120" height="90" viewBox="0 0 120 90" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <circle cx="60" cy="45" r="40" fill="#fdf1e0"/>
+          <path d="M60 16 L92 30 V42 C92 62 78 74 60 80 C42 74 28 62 28 42 V30 Z" fill="#b23a2e"/>
+          <path d="M60 24 L84 34 V42 C84 58 73 68 60 73 C47 68 36 58 36 42 V34 Z" fill="#f4f6f5"/>
+          <path d="M50 44 L57 51 L71 35" stroke="#1f6f5c" stroke-width="4.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="97" cy="60" r="14" fill="#e08e2e"/>
+          <text x="97" y="65" font-family="IBM Plex Mono, monospace" font-size="14" fill="#fff" text-anchor="middle">₹</text>
+        </svg>
+      </div>
+      <div style="text-align:center; margin-bottom: 22px;">
+        <div class="brand" style="justify-content:center;">
+          <span class="mark"></span>
+          <span>Civic Assist</span>
+        </div>
+        <p style="color: var(--text-muted); font-size: 0.85rem; margin-top: 6px;">
+          Government emergency services &amp; banking help, in one place
+        </p>
+      </div>
+
+      <div class="ticket" style="padding: 30px 26px;">
+        <div class="token-badge" style="margin-bottom: 16px;">TOKEN <b id="tokenNo">--</b></div>
+
+        <h2 id="formTitle">Sign in</h2>
+        <div class="ticket-perf"></div>
+
+        <form id="authForm">
+          <div class="field">
+            <label for="username" id="usernameLabel">Username</label>
+            <input id="username" type="text" autocomplete="username" required />
+          </div>
+          <div class="field" id="mobileField" style="display:none;">
+            <label for="mobile">Mobile number (10 digits)</label>
+            <input id="mobile" type="tel" inputmode="numeric" pattern="[6-9][0-9]{9}" maxlength="10" autocomplete="tel" placeholder="9876543210" />
+          </div>
+          <div class="field">
+            <label for="password">Password</label>
+            <input id="password" type="password" autocomplete="current-password" required />
+          </div>
+          <div class="error-text" id="errorText"></div>
+          <button class="btn" type="submit" style="width:100%;" id="submitBtn">Sign in</button>
+        </form>
+
+        <p style="text-align:center; font-size:0.85rem; margin-top:16px; color: var(--text-muted);">
+          <span id="toggleText">New here?</span>
+          <a href="#" id="toggleLink" style="color: var(--saffron); font-weight:500;">Create an account</a>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <script src="/js/login.js"></script>
+</body>
+</html>

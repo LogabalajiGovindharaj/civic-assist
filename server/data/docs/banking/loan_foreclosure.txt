@@ -1,0 +1,22 @@
+TITLE: Home Loan Foreclosure and Prepayment Charges
+REGULATOR: Reserve Bank of India
+CATEGORY: loans
+
+RBI directs that banks and NBFCs cannot charge foreclosure or prepayment
+penalties on floating-rate home loans taken by individual borrowers, whether
+the loan is closed using own funds or refinanced by another lender.
+
+For fixed-rate home loans, and for loans to non-individual borrowers
+(such as a business entity), the lender may still levy a prepayment charge
+as per the loan agreement — this should be disclosed upfront in the Key
+Fact Statement (KFS).
+
+Required documents for foreclosure: loan account statement request, No
+Objection Certificate (NOC) request, and (for property loans) original
+title documents are returned within 30 days of full repayment as per RBI
+rules; delay beyond that entitles the borrower to compensation of Rs. 5,000
+per day of delay.
+
+If charged a foreclosure fee on a floating-rate individual home loan, raise
+a written complaint with the branch, then escalate to the RBI Banking
+Ombudsman if unresolved within 30 days.

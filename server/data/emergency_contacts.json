@@ -1,0 +1,21 @@
+[
+  { "number": "112", "purpose": "National Emergency Response", "category": "general" },
+  { "number": "100", "purpose": "Police", "category": "police" },
+  { "number": "101", "purpose": "Fire", "category": "fire" },
+  { "number": "102", "purpose": "Ambulance", "category": "medical" },
+  { "number": "108", "purpose": "Emergency Ambulance", "category": "medical" },
+  { "number": "104", "purpose": "Medical Advice", "category": "medical" },
+  { "number": "1930", "purpose": "Cyber Crime / Financial Fraud Helpline", "category": "cyber" },
+  { "number": "181", "purpose": "Women Helpline", "category": "women_safety" },
+  { "number": "1091", "purpose": "Women Police", "category": "women_safety" },
+  { "number": "1098", "purpose": "Childline", "category": "child_safety" },
+  { "number": "14567", "purpose": "Senior Citizen Helpline", "category": "senior_care" },
+  { "number": "14416", "purpose": "Mental Health Support (Tele-MANAS)", "category": "mental_health" },
+  { "number": "1962", "purpose": "Animal Rescue / Ambulance", "category": "animal" },
+  { "number": "1906", "purpose": "LPG Gas Emergency", "category": "gas" },
+  { "number": "1912", "purpose": "Electricity Complaint", "category": "electricity" },
+  { "number": "1070", "purpose": "State Disaster Control Room", "category": "disaster" },
+  { "number": "1077", "purpose": "District Disaster Control Room", "category": "disaster" },
+  { "number": "1033", "purpose": "National Highway Emergency", "category": "road" },
+  { "number": "1512", "purpose": "Railway Security", "category": "railway" }
+]

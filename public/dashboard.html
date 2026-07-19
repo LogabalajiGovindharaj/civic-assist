@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Civic Assist — Choose a service</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/styles.css" />
+</head>
+<body>
+  <div class="topbar">
+    <div class="brand"><span class="mark"></span><span>Civic Assist</span></div>
+    <div style="display:flex; align-items:center; gap:14px;">
+      <span class="mono" id="whoami" style="font-size:0.82rem; color:var(--text-muted);"></span>
+      <button class="btn ghost small" id="logoutBtn">Sign out</button>
+    </div>
+  </div>
+
+  <div style="text-align:center; padding-top: 34px;">
+    <span class="token-badge">TOKEN <b id="tokenNo">--</b></span>
+    <h1 style="margin-top:14px; font-size:1.7rem;">Which service window do you need?</h1>
+    <p style="color:var(--text-muted); margin-top:6px;">Each window is grounded only in official documents — no guessing.</p>
+    <p class="location-pill off" id="locationPill" style="margin-top:10px;"><span class="dot"></span> Detecting your location…</p>
+  </div>
+
+  <div class="window-grid">
+    <a class="ticket window-card gov" href="/assistant.html?assistant=govt_emergency">
+      <svg width="52" height="52" viewBox="0 0 52 52" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <circle cx="26" cy="26" r="26" fill="#f4e2df"/>
+        <path d="M26 10 L40 16 V24 C40 35 34 41 26 44 C18 41 12 35 12 24 V16 Z" fill="#b23a2e"/>
+        <path d="M26 20 V32 M20 26 H32" stroke="#fff" stroke-width="3.5" stroke-linecap="round"/>
+      </svg>
+      <div class="eyebrow">Window 1 · Emergencies &amp; Government</div>
+      <h2>Government &amp; Emergency Services</h2>
+      <p>Emergency helplines, nearest hospital/police/fire station by your location, disaster steps, and document procedures like birth certificate or driving licence.</p>
+    </a>
+    <a class="ticket window-card bank" href="/assistant.html?assistant=banking">
+      <svg width="52" height="52" viewBox="0 0 52 52" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <circle cx="26" cy="26" r="26" fill="#dfeee9"/>
+        <path d="M26 12 L42 20 H10 Z" fill="#1f6f5c"/>
+        <rect x="12" y="22" width="4" height="14" fill="#1f6f5c"/>
+        <rect x="21" y="22" width="4" height="14" fill="#1f6f5c"/>
+        <rect x="30" y="22" width="4" height="14" fill="#1f6f5c"/>
+        <rect x="10" y="37" width="32" height="4" fill="#1f6f5c"/>
+      </svg>
+      <div class="eyebrow">Window 2 · Banking &amp; Finance</div>
+      <h2>Banking &amp; Financial Services</h2>
+      <p>RBI rules on ATM/UPI failed transactions, loan foreclosure charges, nearest bank branch or ATM, and fraud red-flag checks.</p>
+    </a>
+  </div>
+
+  <div id="essentialsSection" style="max-width: 920px; margin: 0 auto 60px; padding: 0 24px; display:none;">
+    <h2 style="font-size:1.2rem; margin-bottom:4px;">Near you right now</h2>
+    <p style="color:var(--text-muted); font-size:0.85rem; margin-bottom:16px;">Common offices people look for, found automatically from your live location.</p>
+    <div class="essentials-grid" id="essentialsGrid"></div>
+  </div>
+
+  <script src="/js/dashboard.js"></script>
+</body>
+</html>

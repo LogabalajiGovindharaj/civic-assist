@@ -1,0 +1,19 @@
+TITLE: UPI Failed and Pending Transaction Resolution
+REGULATOR: NPCI / Reserve Bank of India
+CATEGORY: atm_upi_disputes
+
+If a UPI payment shows as debited but the recipient does not receive it,
+the amount is auto-reversed to the sender's account within 1-3 working
+days (Turn Around Time, or TAT, defined by NPCI). No manual claim is
+usually required in a straightforward auto-reversal case.
+
+If the amount is not reversed within the TAT, raise a complaint through
+the UPI app's "Help" or "Raise Dispute" section, referencing the UTR
+(transaction reference) number, and also contact the bank's customer care.
+
+Wrong transfer to an unintended UPI ID: contact your bank immediately with
+the UTR number and ask them to intimate the beneficiary's bank. There is
+no automatic reversal for a correctly processed transfer to a genuine but
+unintended recipient; recovery depends on the beneficiary's cooperation or
+a formal complaint through the bank and, if needed, the National Cyber
+Crime Reporting Portal.

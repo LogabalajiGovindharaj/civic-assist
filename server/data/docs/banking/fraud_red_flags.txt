@@ -1,0 +1,25 @@
+TITLE: RBI/SEBI Investor and Consumer Advisory - Common Fraud Patterns
+REGULATOR: Reserve Bank of India / SEBI
+CATEGORY: fraud_advisory
+
+Warning signs of financial fraud include:
+- Guaranteed fixed high returns (for example, "12% monthly" or "double your
+  money in 6 months") — no legitimate regulated investment can guarantee
+  such returns.
+- Pressure or incentive to recruit other investors (a sign of a pyramid or
+  Ponzi structure).
+- Entities that are not registered with RBI, SEBI, or IRDAI.
+- Any request to share OTP, PIN, CVV, or full card number over a phone
+  call, SMS, or WhatsApp message.
+- Unsolicited instant-loan app links sent via SMS, often charging hidden
+  fees and using aggressive, harassing recovery tactics.
+- Fake customer-care numbers found via search engine ads rather than the
+  bank's official website.
+
+Legitimate banks, RBI, and SEBI never call or message asking for OTP, PIN,
+password, or to install a remote-access screen-sharing app.
+
+If you suspect fraud, do not confirm or deny that a specific offer is
+"safe" — instead check the entity's registration on the regulator's
+official website, and report suspicious activity to 1930 (Cyber Crime
+Helpline) or the National Cyber Crime Reporting Portal immediately.

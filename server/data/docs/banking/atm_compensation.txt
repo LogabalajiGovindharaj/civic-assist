@@ -1,0 +1,17 @@
+TITLE: RBI Customer Compensation Policy - ATM Failed Transactions
+REGULATOR: Reserve Bank of India
+CATEGORY: atm_upi_disputes
+
+If a customer's account is debited but cash is not dispensed at an ATM
+("failed transaction"), the issuing bank must reverse (re-credit) the
+transaction within a maximum of 5 working days from the date of the
+transaction, without requiring the customer to file a claim.
+
+Failure to re-credit within 5 working days entitles the customer to a
+compensation of Rs. 100 per day of delay, credited automatically to the
+account.
+
+Process: Note the ATM location, date, time, and reference number from the
+SMS or transaction slip. Raise a complaint with the card-issuing bank
+(not the ATM's bank) via the helpline, app, or branch. If unresolved after
+30 days, escalate to the RBI Banking Ombudsman via the CMS portal.

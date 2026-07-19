@@ -1,0 +1,30 @@
+TITLE: Disaster Response Standard Operating Procedures
+DEPARTMENT: State Disaster Management Authority
+CATEGORY: disaster_sop
+
+GAS LEAK: Turn off the gas regulator immediately. Open all doors and windows
+for ventilation. Do not operate any electrical switch, fan, or lighter, as a
+spark can ignite leaked gas. Evacuate everyone from the house. Call the LPG
+emergency helpline 1906 and inform neighbours. Do not re-enter until a
+technician confirms it is safe.
+
+FIRE: Alert everyone in the building and evacuate calmly using stairs, never
+the lift. Close doors behind you to slow the spread of fire. Call 101 (Fire)
+or 112. If trapped, seal the door gap with wet cloth and signal from a window.
+Do not use water on an electrical fire; use a dry powder extinguisher or
+switch off the mains first if safely possible.
+
+FLOOD: Move to higher ground immediately. Switch off the main electricity
+supply if water is entering the house. Avoid walking or driving through
+moving flood water. Keep a battery radio or phone for official alerts. Call
+1070 (State Disaster Control Room) for rescue assistance.
+
+EARTHQUAKE: Drop, cover, and hold under a sturdy table until shaking stops.
+Stay away from windows and heavy furniture that can fall. After shaking
+stops, evacuate the building via stairs and move to open ground away from
+structures and power lines.
+
+ROAD ACCIDENT: Call 108 (Ambulance) and 100 (Police) immediately. Do not move
+an injured person unless there is an immediate danger like fire, as
+incorrect movement can worsen spinal injuries. Mark the location with hazard
+lights or a warning triangle if available.
