@@ -23,7 +23,7 @@ cp .env.example .env
 npm start
 ```
 
-Open http://localhost:3000 — it will redirect to a login/sign-up page (any username/password
+Open https://civic-assist-uaj6.onrender.com — it will redirect to a login/sign-up page (any username/password
 works, it's your own local account, stored hashed in `server/data/users.json`).
 
 **No API key yet?** The app still runs. Without `GEMINI_API_KEY` set, each assistant
