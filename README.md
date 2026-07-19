@@ -1,5 +1,4 @@
 # Civic Assist — Government Emergency & Banking RAG Assistant
-# Civic Assist — Government Emergency & Banking Assistant
 
 **🔗 Live app:** [https://civic-assist-uaj6.onrender.com/login.html](https://civic-assist-uaj6.onrender.com/login.html)
 
